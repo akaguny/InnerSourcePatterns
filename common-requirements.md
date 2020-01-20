@@ -1,16 +1,17 @@
 ## Title
-Common Requirements
+Основные требования
 
 ## Context
-Many projects are trying to use common code.  There is a shared repository that all the projects access.  This pattern applies if there is a Strong Code Owner [pattern to be written] or if there is weak code ownership, or no Benevolent Sponsor [pattern to be written]. Someone (or some project) wrote the code in the first place and contributed it to the repository. The common code is a small percentage of the overall deliverable from any of the projects.  Each project has its own delivery schedule, set of deliverables and customers.
+Много проектов пытаются использовать общий код.  Это шаренные репозитории к которым у всех есть доступ.  Этот подход применим если есть Strong Code Owner [pattern to be written] or if there is weak code ownership, or no Benevolent Sponsor [pattern to be written]. Someone (or some project) wrote the code in the first place and contributed it to the repository. Общий код это только небольшой процент от конечного результата любого проекта. Каждый проект имеет свой график отгрузки и другие обязательства перед заказчиками.
 
 ## Patlet
-The common code in the shared repository isn't meeting the needs of all the projects that want to use it; solved through requirement alignments and refactoring.
+Общий код в общем репозитории не соответствует нуждам всех проектов, которые хотят его использовать. Решается путём выравнивания требований и рефакторинга.
 
 ## Problem Statement
-The common code in the shared repository isn't meeting the needs of all the projects that want to use it.  
+Общий код в общем репозитории не соответствует нуждам всех проектов, которые хотят его использовать.
 
 ## Forces
+
 The project that made the code available has one set of needs. Its needs are similar to what some of the receiving organization wants, but not quite the same. 
 Requirements on code should be derivable from real customer needs.  
 
